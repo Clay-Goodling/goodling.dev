@@ -1,0 +1,61 @@
+body {
+    background-color: #fffff0;
+    min-width: 800px;
+    margin: 2%;
+    font-family: "Times", Times, serif;
+    font-size: 16px;
+}
+
+#sections {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.section {
+    width: 100%;
+    margin: 1% auto;
+    padding: 2%;
+    border: 1px solid black;
+}
+
+div.header {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+div.subsection {
+    margin: 10px;
+}
+#name {
+    text-align: center;
+}
+
+#bio {
+    flex-basis: 70%;
+}
+
+#contact {
+    flex-basis: 20%;
+}
+
+#education {
+    flex-basis: calc(28%);
+}
+
+#skills {
+    flex-basis: calc(28%);
+}
+
+#awards {
+    flex-basis: calc(28%);
+}
+
+#experience {
+    flex-basis:100%;
+}
+
+img.icon {
+    width: 15px;
+}
